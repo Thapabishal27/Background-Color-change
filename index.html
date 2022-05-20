@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        /* font-family: 'Roboto Mono', monospace; */
+        font-family: 'Space Mono', monospace;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-logo {
+        font-size: 32px;
+        text-decoration: underline;
+    }
+
+    .navbar-links {
+        margin-left: 42px;
+    }
+
+    a {
+        padding: 12px;
+        font-size: 22px;
+        text-decoration: underline;
+        color: black;
+    }
+
+    #img {
+        height: auto;
+        width: 15%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    #details {
+        text-align: center;
+        margin-top: 1rem;
+        line-height: 18px;
+    }
+
+    #text1 {
+        font-size: 14px;
+        width: 40%;
+        height: auto;
+        display: inline-block;
+        flex-wrap: wrap;
+        --bs-gutter-x: 1.5rem;
+        word-wrap: break-word;
+    }
+
+
+    .color-info {
+        text-align: center;
+    }
+
+    #btn {
+        margin-left: 19px;
+        margin-right: 14px;
+        margin: 6px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .btn-nbr1 {
+        background-color: red;
+        padding: 8px;
+        color: rgb(255, 255, 255);
+    }
+
+    .btn-nbr2 {
+        background-color: blue;
+        padding: 8px;
+        color: rgb(255, 255, 255);
+    }
+
+    .btn-nbr3 {
+        background-color: yellow;
+        padding: 8px;
+    }
+
+    .btn-nbr4 {
+        padding: 8px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+    }
+</style>
+
+<body>
+    <div class="navbar">
+        <div class="brand-logo">DAVINCI</div>
+        <div class="navbar-links">
+            <a id="12" href="#">HOME</a>
+            <a id="13" href="#">Art Gallery</a>
+            <a id="14" href="#">History</a>
+            <a id="15" href="#">Profile</a>
+        </div>
+    </div>
+    <div id="2ndbox"><img id="img" src="leonardo.jpg">
+        <div class="color-info">
+            <h2 id="bg-color">change background color</h2>
+            <button type="button" id="btn" class="btn-nbr1">RED</button>
+            <button type="button" id="btn" class="btn-nbr2">BLUE</button>
+            <button type="button" id="btn" class="btn-nbr3">YELLOW</button>
+            <button type="button" id="btn" class="btn-nbr4">BLACK</button>
+        </div>
+        <div id="details">
+            <p id="text1">Leonardo di ser Piero da Vinci[b] (15 April 1452 – 2 May 1519) was an Italian polymath of the
+                High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor and
+                architect.[3] While his fame initially rested on his achievements as a painter, he also became known for
+                his notebooks, in which he made drawings and notes on a variety of subjects, including anatomy,
+                astronomy, botany, cartography, painting, and paleontology. Leonardo's genius epitomized the Renaissance
+                humanist ideal,[4] and his collective works compose a contribution to later generations of artists
+                matched only by that of his younger contemporary , Michelangelo</p>
+        </div>
+        <script src="main.js"></script>
+</body>
+
+</html>
